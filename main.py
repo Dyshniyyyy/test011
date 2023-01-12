@@ -6,6 +6,11 @@ def sub(a,b):
     return a - b
 
 
+# Multiplication function
+def multi(a, b):
+    return a * b
+
+
 a, sign, b = input().split()
 
 if sign == "+":
@@ -13,6 +18,9 @@ if sign == "+":
 
 if sign == "-":
     print(sub(int(a), int(b)))
+
+if sign == "*":
+    print(multi(int(a), int(b)))
 
 
 
