@@ -5,6 +5,9 @@ def sum(a,b):
 def sub(a,b):
     return a - b
 
+def dif(a,b):
+    return a // b
+
 
 # Multiplication function
 def multi(a, b):
@@ -21,6 +24,11 @@ if sign == "-":
 
 if sign == "*":
     print(multi(int(a), int(b)))
+
+if sign == "//":
+    print(dif(int(a), int (b)))
+
+
 
 
 
